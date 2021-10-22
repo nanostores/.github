@@ -3,7 +3,6 @@ A tiny state manager for **React**, **React Native**, **Preact**, **Vue**,
 and direct manipulation.
 
 * **Small.** Less than 1 KB. Zero dependencies.
-  Zero dependencies.
 * **Fast.** With small atomic and derived stores, you do not need to call
   the selector function for all components on every store change.
 * **Tree Shakable.** The chunk contains only stores used by components
