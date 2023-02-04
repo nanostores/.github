@@ -1,5 +1,5 @@
 A tiny state manager for **React**, **React Native**, **Preact**, **Vue**,
-**Svelte**, and vanilla JS. It uses **many atomic stores**
+**Svelte**, **Solid**, **Lit**, **Angular** and vanilla JS. It uses **many atomic stores**
 and direct manipulation.
 
 * **Small.** Less than 1 KB. Zero dependencies.
