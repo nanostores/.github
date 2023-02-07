@@ -9,3 +9,14 @@ and direct manipulation.
   in the chunk.
 * Was designed to move logic from components to stores.
 * It has good **TypeScript** support.
+
+It has many smart stores with built-in logic inside:
+
+* [Persistent](https://github.com/nanostores/persistent) store to save data
+  to `localStorage` and synchronize changes between browser tabs.
+* [Router](https://github.com/nanostores/router) store to parse URL
+  and implements SPA navigation.
+* [I18n](https://github.com/nanostores/i18n) library based on stores
+  to make application translatable.
+* [Logux Client](https://github.com/logux/client): stores with WebSocket
+  sync and CRDT conflict resolution.
