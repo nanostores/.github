@@ -18,5 +18,7 @@ It has many smart stores with built-in logic inside:
   and implements SPA navigation.
 * [I18n](https://github.com/nanostores/i18n) library based on stores
   to make application translatable.
+* [Query](https://github.com/nanostores/query) store that helps you
+  with smart remote data fetching.
 * [Logux Client](https://github.com/logux/client): stores with WebSocket
   sync and CRDT conflict resolution.
