@@ -12,13 +12,19 @@ and direct manipulation.
 
 It has many smart stores with built-in logic inside:
 
+* [Async computed](https://github.com/nanostores/async) store
+  to fetch data or create chains of async operations.
 * [Persistent](https://github.com/nanostores/persistent) store to save data
   to `localStorage` and synchronize changes between browser tabs.
 * [Router](https://github.com/nanostores/router) store to parse URL
   and implements SPA navigation.
+* [Deep Map](https://github.com/nanostores/deepmap) store to put
+  big nested object/arrays and change keys by path.
 * [I18n](https://github.com/nanostores/i18n) library based on stores
   to make application translatable.
-* [Query](https://github.com/nanostores/query) store that helps you
-  with smart remote data fetching.
+* [Query](https://github.com/nanostores/query) store that helps you with smart
+  remote data fetching.
 * [Logux Client](https://github.com/logux/client): stores with WebSocket
   sync and CRDT conflict resolution.
+* [Immer](https://github.com/illuxiza/nanostores-immer) plugin to
+  enable immutable state updates using Immer.
